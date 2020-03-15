@@ -12,7 +12,7 @@ def CountWords(file):
 
 if __name__ == "__main__":
     # reference transcript file
-    trans = "/home/caleb/Projects/JHU/MLDSP/MLSP_Project/Data/LibriSpeech/dev-clean/84/121123/84-121123.trans.txt"
+    trans = "data/LibriSpeech/dev-clean/84/121123/84-121123.trans.txt"
     
     audio_dict = CountWords(trans)
     print(audio_dict)

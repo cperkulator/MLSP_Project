@@ -1,0 +1,6 @@
+playsound
+scipy
+PySoundFile
+matplotlib
+requests
+jupyterlab
